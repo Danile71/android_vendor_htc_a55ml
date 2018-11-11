@@ -4,7 +4,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a55ml_dtul/lib6
 
 #PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a55ml_dtul/bin,system/bin)
 
-#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a55ml_dtul/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a55ml_dtul/etc,system/etc)
 
 #PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a55ml_dtul/usr,system/usr)
 
